@@ -1,0 +1,34 @@
+{
+"Equipment": [
+{
+    "ID": 1, 
+    "Item": "Kettlebell",
+    "Target": "Obliques",
+    "Operation": "Hold Kettlebells in either hand and sway side to side"
+},
+{
+    "ID": 2, 
+    "Item": "Dumbbell",
+    "Target": "Biceps",
+    "Operation": "Keep elbows at your side, and curl 90 degrees from straight out to shoulders"
+},
+{
+    "ID": 3, 
+    "Item": "Treadmill",
+    "Target": "Endurance",
+    "Operation": "Set to comfortable speed and walk or run in place"
+},
+{
+    "ID": 4, 
+    "Item": "Ab Roller",
+    "Target": "Upper Abominals",
+    "Operation": "From kneeling positon, put the roller on the floor and stretch as far as possible "
+},
+{
+    "ID": 5, 
+    "Item": "Doorway Pull-Up Bar",
+    "Target": "Chest",
+    "Operation": "Pull body up over bar using either overhand or underhand techniques"
+}
+]
+}
