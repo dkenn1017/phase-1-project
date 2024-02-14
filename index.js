@@ -14,3 +14,6 @@ all_btn.forEach(function(btn) {
    });
 });
 
+window.addEventListener('scroll',(event) => {
+  console.log('Scrolling');
+})
