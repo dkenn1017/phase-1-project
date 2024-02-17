@@ -1,4 +1,23 @@
-document.addEventListener("DOMContentLoaded", () => console.log("We are connected!"))
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('form').addEventListener('submit', (e) => {
+   e.preventDefault()
+   handleToDo(e.target.Weight.value)
+ })
+})
+
+function handleToDo(weight) {
+  let p = document.createElement("p")
+  let btn = document.createElement("button")
+  btn.addEventListener('click', handleDelete)
+  btn.textContent ="x"
+  p.textContent = weight
+  p.appendChild(btn)
+  document.querySelector("#weight_container").appendChild(p)
+ }
+
+ function handleDelete(e){
+  e.target.parentNode.remove()
+ }
 
 const all_img = document.querySelectorAll("img")
 all_img.forEach(function(img){
